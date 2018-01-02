@@ -7,7 +7,7 @@ FROM ubuntu:latest
 RUN apt-get update \
         && apt-get install -y \
           # git
-          git
+          git \
           # Java Runtime and Java Dev Kit
           default-jre \
           default-jdk \
