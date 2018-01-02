@@ -1,2 +1,2 @@
-# burpdock
-A Burp Suite automation tool on Docker.
+# Burpdock
+Docker container for Burp Suite automation.

@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+
+### burpdock service
+
+  burpdock:
+    image: brianlam38/burpdock:latest
+    container_name: burpdock
+    ports:
+      - 9200:9200
+    expose:
+      - 9200
+    #volumes:
+    #  - ./burp-rest-api:/opt/burpdock/burp-rest-api
+    # remove below two configs after integration w/ Banzai
+    stdin_open: true
+    tty: true
