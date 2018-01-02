@@ -14,6 +14,4 @@ RUN apt-get update \
           # Gradle
           gradle
 
-COPY /burp-rest-api/ /opt/burpdock/burp-rest-api
-
 EXPOSE 9200
