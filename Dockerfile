@@ -7,12 +7,14 @@ FROM ubuntu:latest
 RUN apt-get update \
         && apt-get install -y \
           python-pip \
-          requests \
           sudo \
           git \
           nano \
           default-jre \
           default-jdk \
-          gradle
+          gradle \
+
+RUN pip install requests
+RUN pip install slackclient
 
 EXPOSE 8090
