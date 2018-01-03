@@ -12,7 +12,7 @@ RUN apt-get update \
           nano \
           default-jre \
           default-jdk \
-          gradle \
+          gradle
 
 RUN pip install requests
 RUN pip install slackclient
