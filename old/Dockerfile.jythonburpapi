@@ -11,10 +11,8 @@ RUN apt-get update \
           git \
           nano \
           default-jre \
-          default-jdk \
-          gradle
+          default-jdk
 
 RUN pip install requests
-RUN pip install slackclient
 
 EXPOSE 8090
