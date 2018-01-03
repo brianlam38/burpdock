@@ -6,12 +6,13 @@ FROM ubuntu:latest
 
 RUN apt-get update \
         && apt-get install -y \
-          # git
+          python-pip \
+          -U requests \
+          sudo \
           git \
-          # Java Runtime and Java Dev Kit
+          nano \
           default-jre \
           default-jdk \
-          # Gradle
           gradle
 
 EXPOSE 8090
