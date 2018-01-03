@@ -7,7 +7,7 @@ FROM ubuntu:latest
 RUN apt-get update \
         && apt-get install -y \
           python-pip \
-          -U requests \
+          requests \
           sudo \
           git \
           nano \
