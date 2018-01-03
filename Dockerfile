@@ -14,4 +14,4 @@ RUN apt-get update \
           # Gradle
           gradle
 
-EXPOSE 9200
+EXPOSE 8090
