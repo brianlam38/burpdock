@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install requests
 
-EXPOSE 8070
+EXPOSE 8090
